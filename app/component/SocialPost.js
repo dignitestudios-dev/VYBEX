@@ -5,9 +5,13 @@ import Image from "next/image";
 export const SocialPost = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-[90%] overflow-hidden rounded-[40px] bg-gradient-to-br from-30% from-[#040818]  via-70% via-[#0000FE] to-100% to-[#D0090B] h-[425px] flex items-center justify-between px-24   ">
-        <div className="py-20 flex gap-6 ">
-          <Image src={social} alt="" className="w-[80px] h-[80px]" />
+      <div className="w-[95%] lg:w-[88%] border-[1px] border-[#252530AB] overflow-hidden rounded-[40px] bg-gradient-to-br from-30% from-[#040818]  via-70% via-[#0000FE] to-100% to-[#D0090B] h-[425px] flex flex-col md:flex-row items-center md:justify-between px-6 lg:px-24   ">
+        <div className="py-10 lg:py-20 flex gap-6 items-start  ">
+          <Image
+            src={social}
+            alt=""
+            className="w-[40px] h-[40px] lg:w-[80px] lg:h-[80px]"
+          />
           <p className="text-[31.99px] font-[600] flex flex-col gap-2 text-[#FFFFFF]">
             Social Post{" "}
             <span className="text-[18px] text-[#FFFFFF] font-[400]">
@@ -17,8 +21,8 @@ export const SocialPost = () => {
             </span>
           </p>
         </div>
-        <div className=" ">
-          <Image src={socialmob} alt="" className="w-[440px]" />
+        <div className="">
+          <Image src={socialmob} alt="" className="w-[250px] lg:w-[440px] " />
         </div>
       </div>
     </div>

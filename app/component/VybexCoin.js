@@ -4,11 +4,15 @@ import { poll, pollmob, vybex, vybexcard, vybexmob } from "../asset/export";
 
 export const VybexCoin = () => {
   return (
-    <div className="p-24 ">
-      <div className="w-full flex items-center  justify-center gap-14">
-        <div className="w-[620px] h-[743px] flex flex-col coins-gradient rounded-[30px]">
-          <div className="py-20 flex gap-6 px-12">
-            <Image src={poll} alt="" className="w-[80px] h-[80px]" />
+    <div className=" lg:py-24 flex justify-center p-4">
+      <div className="w-[95%]  flex flex-col lg:flex-row items-center  justify-center gap-20">
+        <div className=" lg:w-[630px] lg:h-[743px] flex flex-col coins-gradient border-[1px] border-[#252530AB] rounded-[30px] overflow-hidden">
+          <div className="py-10 lg:py-20 flex gap-6 lg:px-12 px-4">
+            <Image
+              src={poll}
+              alt=""
+              className="w-[60px] lg:w-[80px] h-[60px] lg:h-[80px]"
+            />
             <p className="text-[31.99px] font-[600] flex flex-col gap-2 text-[#FFFFFF]">
               Vybex Coins{" "}
               <span className="text-[18px] text-[#FFFFFF] font-[400]">
@@ -19,13 +23,25 @@ export const VybexCoin = () => {
             </p>
           </div>
           <div className="flex items-end justify-center relative">
-            <Image src={vybexmob} alt="" className="w-[350px]" />
-            <Image src={vybexcard} alt="" className="absolute bottom-1" />
+            <Image
+              src={vybexmob}
+              alt=""
+              className="w-[250px] lg:w-[300px] xl:w-[350px]"
+            />
+            <Image
+              src={vybexcard}
+              alt=""
+              className="absolute bottom-1 w-[400px] xl:w-[600px]"
+            />
           </div>
         </div>
-        <div className="w-[620px] h-[743px] flex flex-col coins-gradient rounded-[30px]">
-          <div className="py-20 flex gap-6 px-12">
-            <Image src={vybex} alt="" className="w-[80px] h-[80px]" />
+        <div className="lg:w-[630px] lg:h-[743px] flex flex-col coins-gradient border-[1px] border-[#252530AB] rounded-[30px]">
+          <div className="py-10 lg:py-20 flex gap-6 lg:px-12 px-4">
+            <Image
+              src={vybex}
+              alt=""
+              className="w-[60px] lg:w-[80px] h-[60px] lg:h-[80px]"
+            />
             <p className="text-[31.99px] font-[600] flex flex-col gap-2 text-[#FFFFFF]">
               Poll Post{" "}
               <span className="text-[18px] text-[#FFFFFF] font-[400]">
@@ -35,8 +51,12 @@ export const VybexCoin = () => {
               </span>
             </p>
           </div>
-          <div className="flex items-end justify-center">
-            <Image src={pollmob} alt="" className="w-[450px]" />
+          <div className="flex items-end justify-center pb-5">
+            <Image
+              src={pollmob}
+              alt=""
+              className="w-[280px] lg:w-[360px]   xl:w-[450px]"
+            />
           </div>
         </div>
       </div>

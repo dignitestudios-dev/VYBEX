@@ -24,6 +24,34 @@ Once verified, you can begin earning through paid lives and supporter contributi
     answer:
       "Vybex is a next-gen social media platform built for creators, trendsetters, and communities that love to share real-time experiences. Whether you're posting everyday moments, creating polls, or hosting exclusive livestreams — Vybex is for anyone who wants to connect, express, and earn, all in one place.",
   },
+  {
+    id: 4,
+    question:
+      "How are payments made to content creators that generate revenue using Vybex?",
+    answer:
+      "Revenue earned through Vybex (via coins or paid live streams) can be withdrawn to the creator’s linked payout method. You can track your earnings and manage withdrawals directly in your profile’s Wallet.",
+  },
+  {
+    id: 5,
+    question:
+      "How can I purchase coins on Vybex and where can I see the remainder of my coins?",
+    answer:
+      "You can buy Vybex Coins securely using credit/debit cards from your profile. To view your balance, just go to the Wallet under your account settings.",
+  },
+  {
+    id: 6,
+    question: "What is needed to make a profile on Vybex?",
+    answer: `Creating a Vybex profile is simple. You’ll need:
+• A valid email or phone number.
+• A unique username and password.
+• A profile photo and short bio to personalize your page.
+ You can start browsing or posting as soon as you sign up!`,
+  },
+  {
+    id: 7,
+    question: "Is Vybex worldwide or just in the United States?",
+    answer: `Vybex is a global platform. While it’s currently most active in the United States, anyone around the world can join, post, and livestream.`,
+  },
 ];
 
 export default function FAQ() {
@@ -34,9 +62,9 @@ export default function FAQ() {
   };
 
   return (
-    <div className="bg-black min-h-screen text-white px-6 py-24 lg:px-20">
+    <div className=" min-h-screen text-white px-6 py-24 lg:px-20">
       <div className="max-w-[1200px] mx-auto">
-        <h2 className="text-4xl lg:text-5xl font-bold text-center mb-12">
+        <h2 className="text-[40px] lg:text-[51.88px] font-[600] text-center mb-12">
           Frequently Asked Questions
         </h2>
 
@@ -49,14 +77,14 @@ export default function FAQ() {
               className="flex items-center justify-between cursor-pointer"
               onClick={() => toggle(item.id)}
             >
-              <h3 className="text-lg font-medium text-white">
+              <h3 className="text-[18px] font-[400] text-white">
                 <span
                   className="font-bold"
                   style={{
-                    background: "linear-gradient(to right, #D0090B, #0000FE)", // Always apply the gradient
-                    WebkitBackgroundClip: "text", // Apply gradient clip for text
-                    backgroundClip: "text", // Apply gradient clip for text
-                    color: "transparent", // Make the text transparent to show the gradient
+                    background: "linear-gradient(to right, #D0090B, #0000FE)",
+                    WebkitBackgroundClip: "text",
+                    backgroundClip: "text",
+                    color: "transparent",
                   }}
                 >
                   {item.id}.

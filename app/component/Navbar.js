@@ -97,7 +97,7 @@ const Navbar = () => {
               Coming Soon
             </button>
             <button onClick={() => toggle()} className="text-white lg:hidden">
-              <HiMenuAlt3 />
+              <HiMenuAlt3 size={35} />
             </button>
           </div>
         </nav>

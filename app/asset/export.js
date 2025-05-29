@@ -19,8 +19,21 @@ import downloadmockup from "./downloadmockup.png";
 import contact from "./contact.png";
 import playstore from "./playstore.png";
 import appstoreicon from "./appstoreicon.png";
+import facebook from "./facebook.png";
+import tiktok from "./tiktok.png";
+import footerlogo from "./footerlogo.png";
+import instagram from "./instagram.png";
+import linkdin from "./linkdin.png";
+import twitter from "./twitter.png";
+
 export {
   logo,
+  facebook,
+  linkdin,
+  footerlogo,
+  instagram,
+  tiktok,
+  twitter,
   heromockup,
   text,
   whitelogo,

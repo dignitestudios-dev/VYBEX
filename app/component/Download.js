@@ -3,12 +3,13 @@ import { appstore, downloadmockup } from "../asset/export";
 
 export default function Download() {
   return (
-    <div className="bg-black min-h-screen text-white">
-      <div className="max-w-[1440px] mx-auto px-6 lg:px-20 py-24 flex flex-col lg:flex-row items-center justify-between relative gap-16">
-        {/* Left Section */}
-        <div className="lg:max-w-[550px] z-10">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">Explore Feed</h2>
-          <p className="text-[#C8C8C8] text-base leading-relaxed mb-2">
+    <div className="  text-white">
+      <div className="w-[90%] mx-auto   py-14 lg:py-24 flex flex-col lg:flex-row items-center justify-between relative gap-24">
+        <div className="w-full">
+          <h2 className="text-[42px] lg:text-[51.35px] font-bold mb-6">
+            Explore Feed
+          </h2>
+          <p className="text-[#FFFFFF] text-[18px]  mb-2">
             Discover new content, trending lives, and fresh creators every day.
             The Explore Feed is your window into the Vybex community — diverse,
             exciting, and always on.
@@ -17,23 +18,19 @@ export default function Download() {
             App Coming Soon
           </p>
 
-          {/* App Store Button */}
           <div className="flex gap-4">
             <Image src={appstore} alt="App Store" className="w-auto h-auto" />
           </div>
         </div>
 
-        {/* Right Section - Gradient Background & Image */}
-        <div className="relative mt-36">
-          <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-[#0000FE] via-[#4B0082] to-[#D0090B] opacity-40 blur-[100px] rounded-[50px] z-0" />
+        <div className="relative lg:mt-36 w-full">
+          <div className="absolute  inset-0 w-full h-full bg-gradient-to-br from-[#0000FE] via-[#4B0082] to-[#D0090B] opacity-40 blur-[100px] rounded-[50px] z-0" />
 
-          <div className="relative z-10 bg-gradient-to-br from-[#040818] via-[#0000FE] to-[#D0090B] rounded-[40px] px-8 py-12 w-[554px] h-[642px] flex items-center justify-center shadow-xl ">
+          <div className="relative border-[1px] border-[#252530AB] z-10 bg-gradient-to-br from-[#040818] via-[#0000FE] to-[#D0090B] rounded-[40px] px-8 py-12 w-full xl:w-[554px] h-[350px] lg:h-[500px] xl:h-[642px] flex items-center justify-center shadow-xl ">
             <Image
               src={downloadmockup}
               alt="App Preview"
-              width={359}
-              height={680}
-              className="rounded-[30px] pb-62 "
+              className="rounded-[30px] pb-20 lg:pb-62 w-[200px] lg:w-[300px] xl:w-[400px] "
             />
           </div>
         </div>
