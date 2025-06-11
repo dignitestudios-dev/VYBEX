@@ -4,7 +4,7 @@ import { contact, aboutmockup, appstore } from "../asset/export";
 
 export const Contact = () => {
   return (
-    <div className="lg:py-28 p-2 ">
+    <div className="lg:py-6 p-2 ">
       <div className="w-full flex flex-col items-center  gap-8">
         <div className="w-[90%]  border-[1px] border-[#252530AB] rounded-[40px]  bg-gradient-to-br from-40% from-[#040818] via-80% via-[#0000FE] to-100% to-[#D0090B]  lg:h-[505px] flex  items-center justify-between px-6 ">
           <div className="flex flex-col gap-4 p-4">
