@@ -1,19 +1,18 @@
 @import "tailwindcss";
 @font-face {
-  font-family: myFirstFont;
-  src: url("/app/asset/font/GeneralSans-MediumItalic.otf");
+  font-family: 'myFirstFont';
+  src: url('/app/asset/font/GeneralSans-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --font-sans: 'myFirstFont', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -23,9 +22,9 @@
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: myFirstFont, sans-serif;
+  font-family: var(--font-sans);
 }
 .hero-bg{
     background-image: url(asset/herobg.png);

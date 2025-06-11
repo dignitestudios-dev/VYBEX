@@ -4,7 +4,7 @@ import { aboutmockup, appstore } from "../asset/export";
 
 export const About = () => {
   return (
-    <div className="py-16 lg:py-28 px-4">
+    <div className="py-16 lg:py-28 px-2">
       <div className="w-full flex flex-col items-center pt-12 gap-8">
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-thin text-[#FFFFFF] text-center">
           About Us

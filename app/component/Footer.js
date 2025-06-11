@@ -22,7 +22,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className=" py-12 p-4 ">
+    <footer className=" py-12 p-2 ">
       <div className="w-[90%] py-20 xl:h-[463px] flex flex-col  border-[1px] border-[#252530AB] mx-auto bg-gradient-to-br from-30% from-[#040818]  via-70% via-[#0000FE] to-100% to-[#D0090B] rounded-[50px] px-4 lg:px-24  text-white">
         <div className="w-full grid grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 space-y-11 ">
           {/* Left: Logo + Social Links */}

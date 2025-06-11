@@ -5,7 +5,7 @@ import { poll, pollmob, vybex, vybexcard, vybexmob } from "../asset/export";
 export const VybexCoin = () => {
   return (
     <div className=" lg:py-24 flex justify-center p-4">
-      <div className="w-[95%]  flex flex-col lg:flex-row items-center  justify-center gap-20">
+      <div className="w-[90%]  flex flex-col lg:flex-row items-center  justify-center gap-20">
         <div className=" lg:w-[630px] lg:h-[743px] flex flex-col coins-gradient border-[1px] border-[#252530AB] rounded-[30px] overflow-hidden">
           <div className="py-10 lg:py-20 flex gap-6 lg:px-12 px-4">
             <Image

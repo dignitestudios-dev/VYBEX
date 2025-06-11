@@ -5,7 +5,7 @@ import Image from "next/image";
 export const SocialPost = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="w-[95%] lg:w-[88%] border-[1px] border-[#252530AB] overflow-hidden rounded-[40px] bg-gradient-to-br from-30% from-[#040818]  via-70% via-[#0000FE] to-100% to-[#D0090B] h-[425px] flex flex-col md:flex-row items-center md:justify-between px-6 lg:px-24   ">
+      <div className="w-[95%] lg:w-[89%] border-[1px] border-[#252530AB] overflow-hidden rounded-[40px] bg-gradient-to-br from-30% from-[#040818]  via-70% via-[#0000FE] to-100% to-[#D0090B] h-[425px] flex flex-col md:flex-row items-center md:justify-between px-6 lg:px-24   ">
         <div className="py-10 lg:py-20 flex gap-6 items-start  ">
           <Image
             src={social}
