@@ -62,7 +62,7 @@ export default function FAQ() {
   };
 
   return (
-    <div className=" min-h-screen text-white px-6 lg:py-20 xl:py-0 lg:px-20">
+    <div className=" text-white px-6 lg:py-24  lg:px-20">
       <div className="max-w-[1200px] mx-auto">
         <h2 className="text-[40px] lg:text-[51.88px] font-[600] text-center mb-12">
           Frequently Asked Questions
@@ -98,9 +98,9 @@ export default function FAQ() {
                     openId === item.id
                       ? "linear-gradient(to right, #D0090B, #0000FE)"
                       : "none",
-                  WebkitBackgroundClip: openId === item.id ? "text" : "none", 
+                  WebkitBackgroundClip: openId === item.id ? "text" : "none",
                   backgroundClip: openId === item.id ? "text" : "none",
-                  color: openId === item.id ? "transparent" : "inherit", 
+                  color: openId === item.id ? "transparent" : "inherit",
                 }}
               >
                 {openId === item.id ? "✕" : "+"}
