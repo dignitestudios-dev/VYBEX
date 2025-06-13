@@ -8,7 +8,7 @@ export const Contact = () => {
       <div className="w-full flex flex-col items-center  gap-8">
         <div className="w-[90%]  border-[1px] border-[#252530AB] rounded-[40px]  bg-gradient-to-br from-40% from-[#040818] via-80% via-[#0000FE] to-100% to-[#D0090B]  lg:h-[505px] flex  items-center justify-between px-6 ">
           <div className="flex flex-col gap-4 p-4">
-            <h3 className="text-[31px]  w-full lg:w-[500px] lg:text-[51px] font-[600] text-[#FFFFFF] lg:leading-[66px] leading-[46px]">
+            <h3 className="text-[42px]  w-full lg:w-[500px] lg:text-[51px] font-[600] text-[#FFFFFF] lg:leading-[66px] leading-[46px]">
               Got Questions? We’ve Got{" "}
               <span className="text-transparent bg-clip-text bg-[linear-gradient(to_right,rgba(208,9,11,0.5)_10%,#0000FE_65%)]">
                 Answers!

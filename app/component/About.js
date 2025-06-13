@@ -5,8 +5,8 @@ import { aboutmockup, appstore } from "../asset/export";
 export const About = () => {
   return (
     <div className="py-16 lg:py-28 px-2">
-      <div className="w-full flex flex-col items-center pt-12 gap-8">
-        <h2 className="text-4xl sm:text-5xl md:text-6xl font-thin text-[#FFFFFF] text-center">
+      <div className="w-full flex flex-col items-center pt-12 gap-6">
+        <h2 className="text-[51.56px]  font-[600] text-[#FFFFFF] text-center">
           About Us
         </h2>
         <p className="text-base sm:text-lg md:text-xl font-[400] text-[#FFFFFF] w-full sm:w-10/12 md:w-8/12 text-center">
@@ -17,7 +17,7 @@ export const About = () => {
         </p>
         <div className=" border-[1px] border-[#252530AB]  lg:w-[90%] overflow-hidden rounded-[40px] bg-gradient-to-br from-30% from-[#040818] via-70% via-[#0000FE] to-100% to-[#D0090B] lg:h-[490px] flex flex-col lg:flex-row ">
           <div className="flex flex-col  gap-4 w-full p-4 md:p-12">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-[600] text-[#FFFFFF] leading-[42px]">
+            <h3 className="text-[32.27px] font-[600] text-[#FFFFFF] leading-[42px]">
               What we Provide
             </h3>
             <p className="text-sm sm:text-base md:text-lg font-thin text-[#FFFFFF]">

@@ -12,7 +12,7 @@ export const SocialPost = () => {
             alt=""
             className="w-[40px] h-[40px] lg:w-[80px] lg:h-[80px]"
           />
-          <p className="text-[31.99px] font-[600] flex flex-col gap-2 text-[#FFFFFF]">
+          <p className="text-[33.99px] font-[600] flex flex-col gap-2 text-[#FFFFFF]">
             Social Post{" "}
             <span className="text-[18px] text-[#FFFFFF] font-[400]">
               Share photos, videos, and updates with your <br /> followers.
