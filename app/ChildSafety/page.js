@@ -1,3 +1,4 @@
+import Footer from "../component/Footer";
 import Navbar from "../component/Navbar";
 
 export default function page() {
@@ -129,6 +130,7 @@ export default function page() {
           policies and tools.
         </p>
       </div>
+      <Footer />
     </div>
   );
 }
