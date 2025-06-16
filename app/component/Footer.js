@@ -19,6 +19,7 @@ import {
   twitter,
   footerlogo,
 } from "../asset/export"; // adjust paths accordingly
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -89,12 +90,15 @@ const Footer = () => {
         <div className="border-t border-white/20 mt-8 pt-4 flex flex-col md:flex-row justify-between items-center text-sm text-white">
           <p>© 2025 Vybex App. All Rights Reserved.</p>
           <div className="flex gap-4 mt-2 md:mt-0">
-            <a href="#" className="">
+            <Link href="/privacy" className="">
               Privacy Policy
-            </a>
-            <a href="#" className="">
+            </Link>
+            <Link href="/Terms" className="">
               Terms & Conditions
-            </a>
+            </Link>
+            <Link href="/ChildSafety" className="">
+            Child Safety & Protection Policy
+            </Link>
           </div>
         </div>
       </div>
