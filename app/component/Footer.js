@@ -52,13 +52,9 @@ const Footer = () => {
           </div>
           <div className="flex flex-col gap-2">
             <h4 className="font-semibold mb-2">Contact</h4>
-            <p className="text-sm text-white">support@vybexapp.com</p>
-            <p className="text-sm text-white">+1 (123) 456-7890</p>
-            <p className="text-sm text-white">
-              123 Vybex Lane, Suite 100,
-              <br />
-              City, State, ZIP
-            </p>
+            <p className="text-sm text-white">info@vybexapp.com</p>
+           
+           
           </div>
 
           {/* Right: App Store Buttons */}

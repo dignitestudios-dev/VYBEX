@@ -73,8 +73,7 @@ export default function page() {
             preference or login information.
           </li>
           <li>
-            Company: when this terms mention â€œCompany,â€ â€œwe,â€ â€œus,â€ or
-            â€œour,â€ it refers to Vybex LLC, (4250 W 1st Apt 201. Santa Ana,
+            Company: when this terms mention Company or our, it refers to Vybex LLC, (4250 W 1st Apt 201. Santa Ana,
             CA, 92703?), that is responsible for your information under this
             Terms & Conditions.
           </li>
