@@ -14,8 +14,8 @@ export const Live = () => {
             </span>
           </h3>
         </div>
-        <div className="relative xl:-top-36 -top-28   lg:flex justify-center hidden ">
-          <Image src={livemockup} alt="" className="xl:h-[680px]   xl:w-[400px]" />
+        <div className="relative xl:-top-36 md:-top-28  top-4  flex justify-center ">
+          <Image src={livemockup} alt="" className="xl:h-[680px]   xl:w-[400px]  md:h-[500px] md:w-[300px] h-[400px] w-[200px]" />
         </div>
         <div className="lg:pt-20">
           <p className="text-[18px] font-[400] text-[#FFFFFF] pt-8">
