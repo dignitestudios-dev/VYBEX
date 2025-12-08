@@ -683,6 +683,13 @@ export default function page() {
           <strong>Vybex</strong> does not warrant that the Vybex Service will be
           uninterrupted, uncorrupted, timely, or error-free.
         </p>
+<div className="py-2">
+          
+            <strong>EULA LINK:</strong>{" "}
+            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="text-blue-500 underline">
+              https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+            </a>
+</div>
         <h2 className="text-3xl mb-2 font-bold ">Contact Us</h2>
         <p>Don't hesitate to contact us if you have any questions.</p>
         <ul className="list-disc list-inside mt-2 space-y-1">

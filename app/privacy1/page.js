@@ -4,7 +4,7 @@ import Footer from "../component/Footer";
 
 export default function page() {
   return (
-    <div className="heroimge bg-[#040818]  text-white   ">
+    <div className="heroimge bg-[#000000]  text-white   ">
       
       <div className="  p-22 ">
         <h1 className="text-4xl font-bold mb-4">Privacy Policy</h1>
@@ -861,7 +861,13 @@ export default function page() {
         <p className="mt-4">
           For more information about these rights, please contact us.
         </p>
-
+<div className="py-2">
+          
+            <strong>EULA LINK:</strong>{" "}
+            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="text-blue-500 underline">
+              https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+            </a>
+</div>
         <h2 className="text-2xl font-bold mt-4 mb-2">Contact Us</h2>
 
         <p className="mt-4">
@@ -884,6 +890,7 @@ export default function page() {
               https://vybexapp.com
             </a>
           </li>
+       
         </ul>
       </div>
     

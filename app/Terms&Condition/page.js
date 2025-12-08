@@ -6,7 +6,7 @@ import Navbar from "../component/Navbar";
 
 export default function page() {
   return (
-    <div className="w-full bg-[#040818] ">
+    <div className="w-full bg-[#000000] ">
      
       <div className="text-white leading-relaxed   p-12 space-y-5">
    
@@ -702,6 +702,12 @@ export default function page() {
               className="text-blue-600 underline"
             >
               https://vybexapp.com
+            </a>
+          </li>
+            <li>
+            <strong>EULA LINK:</strong>{" "}
+            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="text-blue-500 underline">
+              https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
             </a>
           </li>
         </ul>
