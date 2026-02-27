@@ -91,10 +91,12 @@ const Navbar = () => {
           </div>
           <div className="flex justify-between">
             <button
-              onClick={() => toggle()}
-              className="w-[154px] h-[57px] custom-inner-shadow inner-shadow fill-white drop-shadow-xl   bg-[#FFFFFF29] text-[#FFFFFF] text-[16px] font-[600] rounded-[500px] border-[1px] border-[#FFFFFF59] lg:block hidden uppercase"
+             
+              className="w-[154px] h-[57px] custom-inner-shadow inner-shadow fill-white drop-shadow-xl   bg-[#FFFFFF29] text-[#FFFFFF] text-[15px] font-[600] rounded-[500px] border-[1px] border-[#FFFFFF59] lg:block hidden uppercase"
             >
-              Coming Soon
+              <a href="https://apps.apple.com/us/app/vybex/id6747700751" target="_blank">
+                Available Now
+              </a>
             </button>
             <button onClick={() => toggle()} className="text-white lg:hidden">
               <HiMenuAlt3 size={35} />

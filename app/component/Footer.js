@@ -59,26 +59,38 @@ const Footer = () => {
 
           {/* Right: App Store Buttons */}
           <div className="flex flex-col gap-4 w-full ">
-            <h4 className="font-semibold">App Coming Soon</h4>
+            <h4 className="font-semibold">App Available Now</h4>
             <p className="text-sm text-white">
               Get Vybex On Your Device Today For Easy Connection, Stories, And
               Much More!
             </p>
             <div className="flex xl:flex-col gap-2">
-              <Image
-                src={playstore}
-                alt="Google Play"
-                width={140}
-                height={40}
-                className="cursor-pointer"
-              />
-              <Image
-                src={appstoreicon}
-                alt="App Store"
-                width={140}
-                height={40}
-                className="cursor-pointer"
-              />
+          
+                      <a
+                        href="https://apps.apple.com/us/app/vybex/id6747700751"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src={appstoreicon}
+                          alt="App Store"
+                          width={200}
+                          height={100}
+                        />
+                      </a>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.dignitestudios.vybex"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src={playstore}
+                          alt="App Store"
+                          width={200}
+                          height={100}
+                        />
+                      </a>
+                  
             </div>
           </div>
         </div>

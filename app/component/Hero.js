@@ -20,8 +20,10 @@ export default function Hero() {
             Join a community built for connection, creativity, and real- <br />{" "}
             time interaction.
           </p>
-          <button className="md:w-[208px] px-2 text-[16px] font-[600] h-[57px]  rounded-[500px] bg-gradient-to-r from-[#D0090B] to-[#0000FE] uppercase">
-            App Coming Soon
+          <button  className="md:w-[208px] px-2 text-[16px] font-[600] h-[57px]  rounded-[500px] bg-gradient-to-r from-[#D0090B] to-[#0000FE] uppercase">
+         <a href="https://apps.apple.com/us/app/vybex/id6747700751" target="_blank">
+                Available Now
+              </a>
           </button>
         </div>
       </div>

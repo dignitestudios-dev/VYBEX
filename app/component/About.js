@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { aboutmockup, appstore } from "../asset/export";
+import { aboutmockup, appstore, appstoreicon, playstore } from "../asset/export";
 
 export const About = () => {
   return (
@@ -30,11 +30,34 @@ export const About = () => {
               tools to keep it real and connect on your terms.
             </p>
             <p className="text-lg sm:text-xl font-[400] text-[#FFFFFF] leading-[42px]">
-              App Coming Soon
+              App Available Now
             </p>
-            <div className="w-full max-w-[400px]">
-              <Image src={appstore} alt="App Store" className="w-full" />
-            </div>
+          <div className="flex gap-4">
+                      <a
+                        href="https://apps.apple.com/us/app/vybex/id6747700751"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src={appstoreicon}
+                          alt="App Store"
+                          width={200}
+                          height={100}
+                        />
+                      </a>
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.dignitestudios.vybex"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Image
+                          src={playstore}
+                          alt="App Store"
+                          width={200}
+                          height={100}
+                        />
+                      </a>
+                    </div>
           </div>
           <div className="relative top-8  w-full md:flex justify-center hidden  ">
             <Image

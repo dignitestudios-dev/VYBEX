@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dignitestudios.vybex",
+      "sha256_cert_fingerprints": [
+        "D0:AE:95:44:DF:F9:05:13:8D:C4:C9:4B:00:CD:B2:42:83:1F:F9:44:40:AD:1A:4D:13:68:97:82:89:B0:9B:C1",
+        "36:E5:A2:79:A3:E3:77:F6:E8:9E:85:D9:80:95:AE:B6:AE:0E:34:1A:CD:A0:F8:95:44:07:B1:E4:A9:2E:6E:09"
+      ]
+    }
+  }
+]
