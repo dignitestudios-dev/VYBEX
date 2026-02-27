@@ -893,12 +893,7 @@ export default function page() {
               https://vybexapp.com
             </a>
           </li>
-            <li>
-            <strong>EULA LINK:</strong>{" "}
-            <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" className="text-blue-500 underline">
-              https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
-            </a>
-          </li>
+        
         </ul>
       </div>
       <Footer />
